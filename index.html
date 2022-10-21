@@ -22,7 +22,7 @@
         color: red;
         position: absolute;
         top: 0;
-        padding-top: 100px;
+        padding-top: 40px;
         font-family: 'Fuzzy Bubbles', cursive;
         font-weight: bold;
         font-size: 5rem;
@@ -116,6 +116,24 @@
       }
       #card-container:hover #card-7 {
         transform: translateX(150%) rotate(30deg) translateY(23%);
+      }
+      @media only screen and (max-width: 800px) {
+        h1 {
+          font-size: 3rem;
+          padding-top: 20px;
+        }
+        h2 {
+          font-size: 1rem;
+          line-height: 1rem;
+          padding-top: 5px;
+        }
+        #card-container {
+          width: 110px;
+          aspect-ratio: 5/7;
+        }
+        .card {
+          width: 110px;
+        }
       }
     </style>
   </head>
